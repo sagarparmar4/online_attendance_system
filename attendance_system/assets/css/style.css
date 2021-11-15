@@ -1,0 +1,6 @@
+/* YOUR CUSTOM STYLES */
+
+.btn .fa, .card .card-body {
+    position: relative;
+    height: 160px;
+}

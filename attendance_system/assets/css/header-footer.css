@@ -1,0 +1,113 @@
+.logo-img{
+ 
+}
+
+
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+    /*padding-left: 400px;*/
+}
+
+.top-nav-collapse {
+    background-color: #2b3f66;
+}
+
+footer.page-footer {
+    background-color: #2b3f66;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #2b3f66;
+    }
+}
+
+.navbar .btn-group .dropdown-menu a:hover {
+    color: #000 !important;
+}
+.navbar .btn-group .dropdown-menu a:active {
+    color: #fff !important;
+}
+nav{
+    background: rgba(30,30,31,0.2) !important;
+}
+.center{
+    text-align: center;
+}
+
+.contact-form label {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.contact-form input[type="text"], textarea {
+    width: 90%;
+    border: 1px solid #4195fc;
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px 1px #4195fc;
+    color: #fff;
+    font-size: 1.11rem;
+    padding: 2px;
+}
+
+.contact-form .row{
+    margin-top: 25px;
+}
+
+.contact-form textarea{
+    height: 160px;
+    font-size: 1.1rem;
+}
+
+
+.btn-floating{
+    z-index: 1;
+    overflow: hidden;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    line-height: 2.5;
+    font-size: 0.9rem;
+    margin: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+
+.btn-floating i{
+    text-align: center;
+    color: #fff;
+}
+
+.btn-fb {
+    background-color: #3B5998;
+}
+
+.btn-tw {
+    background-color: #55ACEE;
+}
+
+.btn-gplus {
+    background-color: #DD4B39;
+}
+
+.btn-li {
+    background-color: #0082CA;
+}
+
+.btn-ins {
+    background-color: #2E5E86;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+}
